@@ -10,7 +10,8 @@ This code sample demonstrates how to implement a Logic APP integrate it with For
 5. Form Recognizer
 
 
-  ## Setting Up the Logic App.
+  
+  ### Setting Up the Logic App.
   
   1. Create a blank logic app 
     ![image](https://docs.microsoft.com/en-us/azure/logic-apps/media/quickstart-create-first-logic-app-workflow/choose-logic-app-template.png)
@@ -25,7 +26,7 @@ This code sample demonstrates how to implement a Logic APP integrate it with For
         * From
 ![Enabling Additional Parameters](https://user-images.githubusercontent.com/37972820/95351592-6d9b9800-08d2-11eb-9ccb-7b8222316378.png)
 4. Click on + New Step
-5. search for form recognizer
+5. Search for form recognizer
 ![Screenshot 2020-10-07 193345](https://user-images.githubusercontent.com/37972820/95353178-08e13d00-08d4-11eb-91a9-9ce0e4c08a7e.png)
 
 6. Select Train Model and fill up the information below
@@ -37,14 +38,19 @@ This code sample demonstrates how to implement a Logic APP integrate it with For
 __To get the infomation needed above.__ 
 * Navigate to the form recognizer instance in azure 
 * Select Keys and Endpoints 
-    * copy the key and add it to account key
-    * copy the end point and paste it into your Site URL
+    * Copy the key and add it to account key
+    * Copy the end point and paste it into your Site URL
     *![Screenshot 2020-10-07 193609](https://user-images.githubusercontent.com/37972820/95353501-62496c00-08d4-11eb-8647-bbebef88dacc.png)
 
 7. Insert the Source URL from Microsoft Azure Storage Explorer. 
     *   Find your Subscription in which the storage account is deployed in
     *   Navigate into your storage account 
-    *   Select the blob that contians the traning data set
+    *   Select the blob that contains the training data set
     *   Copy the URL from the Bottom Left Corner
-    *   paste it as the source.
+    *   Paste it as the source.
     ![blob storage url](https://user-images.githubusercontent.com/37972820/95357045-6d060000-08d8-11eb-97f1-e3bfe005ce08.png)
+
+8. Click on + Next Step
+9. Search for Form Recognizer and Select Analyse Form
+    * Click on Model ID and Select __ModelID__ that is generated from __Train Model__
+    * Click on Document and Select __Attachment Content__ from __When an Email is Received__
