@@ -11,6 +11,7 @@ This code sample demonstrates how to implement a Logic APP integrate it with For
 
 
   
+
   ### Setting Up the Logic App.
   
   1. Create a blank logic app 
@@ -47,10 +48,16 @@ __To get the infomation needed above.__
     *   Navigate into your storage account 
     *   Select the blob that contains the training data set
     *   Copy the URL from the Bottom Left Corner
-    *   Paste it as the source.
+    *   Paste it as the source
     ![blob storage url](https://user-images.githubusercontent.com/37972820/95357045-6d060000-08d8-11eb-97f1-e3bfe005ce08.png)
 
 8. Click on + Next Step
 9. Search for Form Recognizer and Select Analyse Form
     * Click on Model ID and Select __ModelID__ that is generated from __Train Model__
     * Click on Document and Select __Attachment Content__ from __When an Email is Received__
+    ![Screenshot 2020-10-07 202624](https://user-images.githubusercontent.com/37972820/95359619-6dec6100-08db-11eb-86be-22a5a1b47d4b.png)
+10. Add an Action __Data Operations__
+    * Select Compose 
+    * Tables in the input Bar
+11. Test it out.
+    
