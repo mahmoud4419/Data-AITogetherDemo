@@ -40,7 +40,7 @@ __To get the infomation needed above.__
 * Select Keys and Endpoints 
     * Copy the key and add it to account key
     * Copy the end point and paste it into your Site URL
-    *![Screenshot 2020-10-07 193609](https://user-images.githubusercontent.com/37972820/95353501-62496c00-08d4-11eb-8647-bbebef88dacc.png)
+    ![Screenshot 2020-10-07 193609](https://user-images.githubusercontent.com/37972820/95353501-62496c00-08d4-11eb-8647-bbebef88dacc.png)
 
 7. Insert the Source URL from Microsoft Azure Storage Explorer. 
     *   Find your Subscription in which the storage account is deployed in
