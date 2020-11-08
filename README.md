@@ -70,5 +70,7 @@ __To get the infomation needed above.__
   5. For incremental process, you will need to be careful to add a condition at cmd11 to change instead of creating the table, to insert instead. This will defintely require a condition to be created first to validate if it is a first time run, or an incremental batch
   6. Moving forward you will push the data into the Synapse SQL Pool (first you will need to have the Synapse provisioned and available)
   7. Example of pushing the data to Synapse below
+  ![image](https://user-images.githubusercontent.com/11376115/98465764-ad60e280-21e4-11eb-8f47-d78c1c7fb17a.png)
   8. Last command below, takes care of moving processed files into an archive directory under data lake, sample below
+  ![image](https://user-images.githubusercontent.com/11376115/98465771-c36ea300-21e4-11eb-8f6d-cb88fe0d2134.png)
     
