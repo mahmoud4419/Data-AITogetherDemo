@@ -67,4 +67,8 @@ __To get the infomation needed above.__
   3. Import the sample scala notebook for processing form recognizer data "ProcessFormRecognizer Code"
   4. Example of the notebook code
   ![image](https://user-images.githubusercontent.com/11376115/98465422-65d95700-21e2-11eb-85e4-994786244826.png)
+  5. For incremental process, you will need to be careful to add a condition at cmd11 to change instead of creating the table, to insert instead. This will defintely require a condition to be created first to validate if it is a first time run, or an incremental batch
+  6. Moving forward you will push the data into the Synapse SQL Pool (first you will need to have the Synapse provisioned and available)
+  7. Example of pushing the data to Synapse below
+  8. Last command below, takes care of moving processed files into an archive directory under data lake, sample below
     
