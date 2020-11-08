@@ -60,4 +60,8 @@ __To get the infomation needed above.__
     * Select Compose 
     * Tables in the input Bar
 11. Test it out.
+
+  ### Processing the data from datalake using Databricks
+  1. First you will need to create databricks in your azure portal
+  2. 
     
