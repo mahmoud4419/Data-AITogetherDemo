@@ -61,7 +61,7 @@ __To get the infomation needed above.__
     * Tables in the input Bar
 11. Test it out.
 
-  ### Processing the data from datalake using Databricks
+  ### Processing datalake data using databricks
   1. First you will need to create databricks in your azure portal
   2. Create a spark cluster from databricks
   3. Import the sample scala notebook for processing form recognizer data "ProcessFormRecognizer Code"
