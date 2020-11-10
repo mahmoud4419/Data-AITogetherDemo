@@ -1,5 +1,5 @@
-                                                         ## Data-AI Form parsing to Insights Demo
-
+## Data-AI Form parsing to Insights Demo
+![image](https://user-images.githubusercontent.com/11376115/98652982-da80d280-2355-11eb-897a-16718c681e52.png)
 
 
 ## Automation of Form Ingestion with Logic APP
